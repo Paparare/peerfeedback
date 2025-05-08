@@ -24,6 +24,7 @@ with st.sidebar:
 # CONSTANTS
 # -------------------------------------------------
 AVAILABLE_MODELS = [
+    "gpt-4.1",
     "gpt-4o",
     "gpt-4o-mini",
     "gpt-3.5-turbo-0125",
