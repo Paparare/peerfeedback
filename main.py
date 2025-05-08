@@ -107,9 +107,9 @@ def _trigger_rerun():
 # PAGE 1 – FUNCTION SELECTOR
 # -------------------------------------------------
 if st.session_state.page == "selector":
-    st.title("📚 Educational Assistant Workbench")
+    st.title("📚 Peer Feedback AI Assistants")
 
-    st.markdown("### 1. Choose a function")
+    st.markdown("### 1. Choose a Assistant")
     function_choice = st.selectbox("What do you want to do?", list(FUNCTION_ROUTES.keys()))
 
     st.markdown("### 2. Model settings")
