@@ -110,7 +110,7 @@ if st.session_state.page == "selector":
     st.title("📚 Peer Feedback AI Assistants")
 
     st.markdown("### 1. Choose a Assistant")
-    function_choice = st.selectbox("What do you want to do?", list(FUNCTION_ROUTES.keys()))
+    function_choice = st.selectbox("Which assistant are you testing?", list(FUNCTION_ROUTES.keys()))
 
     st.markdown("### 2. Model settings")
     model_choice = st.selectbox("GPT model", AVAILABLE_MODELS, index=AVAILABLE_MODELS.index(st.session_state.model_choice))
